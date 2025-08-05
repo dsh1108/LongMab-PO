@@ -4,5 +4,31 @@ Source code for paper: Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Lo
 ## Overview
 LongMab-PO is a novel framework that leverages a Multi-Armed Bandit (MAB) rollout strategy to identify the most informative chunks from the given long context for sampling high-quality and diverse responses and constructing preference data pairs for Direct Preference Optimization (DPO) training.
 
-![可选的图像说明文字](fig/LongMab_final.png)
-## Requirement
+![](fig/LongMab_final.png)
+
+## Requirements
+
+### 1. Requirement.
+**Install the following packages using Pip or Conda under this environment**
+
+```
+Python==3.10.14
+torch==2.2.1
+transformers==4.40.0
+faiss==1.8.0
+tqdm
+trl==0.8.6
+vllm==0.4.1
+accelerate==0.30.1
+deepspeed==0.14.2
+peft==0.10.0
+```
+
+### 2. Install LLaMA-Factory.
+Refer to [https://github.com/hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for detailed instructions.
+
+```bash
+git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
+cd LLaMA-Factory
+pip install -e ".[torch,metrics]"
+```
