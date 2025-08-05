@@ -32,3 +32,8 @@ git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
+
+## LongMab-PO Pipeline
+
+### 1. Prepare the Training and Test Data
+### 2. Train the Model
