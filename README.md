@@ -3,5 +3,5 @@ Long-Context LLM Preference Optimization
 Source code for paper: Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
 ## Overview
 LongMab-PO is a novel framework that leverages a Multi-Armed Bandit (MAB) rollout strategy to identify the most informative chunks from the given long context for sampling high-quality and diverse responses and constructing preference data pairs for Direct Preference Optimization (DPO) training. 
-[查看 PDF 文档](fig/LongMab.pdf)
+![可选的图像说明文字](图片路径或 URL)
 ## Requirement
