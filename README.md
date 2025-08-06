@@ -71,4 +71,7 @@ cd Llama-Factory
 You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingface.co/sanwuge/ConsJudge-qwen) and [Qwen-2.5-7B-Instruct](https://huggingface.co/sanwuge/ConsJudge-llama) directly.
 
 ## Evaluation
-cd 
+```
+cd scripts
+bash eval.sh
+```
