@@ -52,15 +52,22 @@ You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to syn
 ### 2. Run the LongMab-PO Pipeline
 **(1) Generate Probe CoT:**
 ```
-conda activate llama3_inf
-python src/answer_generation/querypassage_to_CoT.py \
---model_path  # The path to RankCoT model \
---data_path # e.g. nq_modify10passage \
---output_name # e.g. nq_querypassage_to_CoT.jsonl
---max_psg_length 1500
+cd scripts
+bash gen_probe.sh
 ```
 **(2) Running the Multi-Armed Bandit Rollout Process:**
+```
+bash rollout.sh
+```
 **(3) Construct Preference Data Pairs:**
+```
+bash filter.sh
+```
 **(4) Train the Model:**
+```
+cd Llama-Factory
+bash Llama3_dpo.sh
+bash Qwen2_dpo.sh
+```
 ### 3. Evaluation
 cd 
