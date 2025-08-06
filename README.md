@@ -33,9 +33,9 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-## LongMab-PO Pipeline
+## Training LongMab-PO
 
-### 1. Prepare the Training Data
+### 1. Prepare the Original Training Data
 You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to synthesize your own original training data, or download the file from [here](https://drive.google.com/drive/folders/1QJ63-90RIdjyKwAdCMZKLz5KiFfxEkoq?usp=sharing) and place them in the `data/` directory.
  **Each sample must contain the following four required fields:**
 
@@ -47,7 +47,6 @@ You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to syn
   "context": "The synthesized long context (str)"
 }     
 ```
-
 
 ### 2. Run the LongMab-PO Pipeline
 **(1) Generate Probe CoT:**
@@ -63,12 +62,13 @@ bash rollout.sh
 ```
 bash filter.sh
 ```
-**(4) Train the Model:**
+
+### 3. Train the Model
 You can train the model by utilizing LLaMA-Factory framework quickly, we provide the yaml files. Please refer to LLaMA-Factory for relevant environment installation and configuration.
 ```
 cd Llama-Factory
 ```
 You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingface.co/sanwuge/ConsJudge-qwen) and [Qwen-2.5-7B-Instruct](https://huggingface.co/sanwuge/ConsJudge-llama) directly.
 
-### 3. Evaluation
+## 3. Evaluation
 cd 
