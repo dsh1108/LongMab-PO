@@ -35,6 +35,7 @@ pip install -e ".[torch,metrics]"
 
 ## LongMab-PO Pipeline
 
-### 1. Prepare the Training and Test Data
+### 1. Prepare the Training Data
+You can follow SeaLong to synthesize your own origin training data, or download the file from [here](https://drive.google.com/drive/folders/1QJ63-90RIdjyKwAdCMZKLz5KiFfxEkoq?usp=sharing) and place them in the `data/` directory.
 
 ### 2. Train the Model
