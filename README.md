@@ -64,10 +64,11 @@ bash rollout.sh
 bash filter.sh
 ```
 **(4) Train the Model:**
+You can train the model by utilizing LLaMA-Factory framework quickly, we provide the yaml files. Please refer to LLaMA-Factory for relevant environment installation and configuration.
 ```
 cd Llama-Factory
-bash Llama3_dpo.sh
-bash Qwen2_dpo.sh
 ```
+You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingface.co/sanwuge/ConsJudge-qwen) and [Qwen-2.5-7B-Instruct](https://huggingface.co/sanwuge/ConsJudge-llama) directly.
+
 ### 3. Evaluation
 cd 
