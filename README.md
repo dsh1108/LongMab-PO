@@ -36,6 +36,19 @@ pip install -e ".[torch,metrics]"
 ## LongMab-PO Pipeline
 
 ### 1. Prepare the Training Data
-You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to synthesize your own origin training data, or download the file from [here](https://drive.google.com/drive/folders/1QJ63-90RIdjyKwAdCMZKLz5KiFfxEkoq?usp=sharing) and place them in the `data/` directory.
+You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to synthesize your own original training data, or download the file from [here](https://drive.google.com/drive/folders/1QJ63-90RIdjyKwAdCMZKLz5KiFfxEkoq?usp=sharing) and place them in the `data/` directory.
+ **Each sample must contain the following four required fields:**
+
+```json
+{
+  "id": "A unique identifier for the sample (int)",
+  "question": "The input question (str)",
+  "answer": "The ground truth answer to the question (str)",
+  "context": "The synthesized long context (str)"
+}     
+```
+
+
+### 2. 
 
 ### 2. Train the Model
