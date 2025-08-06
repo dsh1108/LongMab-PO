@@ -50,8 +50,9 @@ You can follow [SeaLong](https://github.com/SihengLi99/SEALONG/tree/main) to syn
 
 
 ### 2. Run the LongMab-PO Pipeline
-#### 1. Generate Probe CoT
-#### 2. Running the Multi-Armed Bandit Rollout Process
-#### 3. Construct Preference Data Pairs
-#### 4. Train the Model
+** (1) Generate Probe CoT: **
+** (2) Running the Multi-Armed Bandit Rollout Process: **
+** (3) Construct Preference Data Pairs: **
+** (4) Train the Model: **
 ### 3. Evaluation
+cd 
