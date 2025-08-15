@@ -78,6 +78,6 @@ bash eval.sh
 
 ## Acknowledgement
 We gratefully acknowledge the following projects that LongMab-PO builds upon:
-* [**MuSiQue**](https://github.com/StonyBrookNLP/musique)
+- [**MuSiQue**](https://github.com/StonyBrookNLP/musique)
 - [**LLaMA-Factory**](https://github.com/hiyouga/LLaMA-Factory)
 - [**vLLM**](https://github.com/vllm-project/vllm)
