@@ -74,4 +74,5 @@ You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingf
 ```
 cd scripts
 bash eval.sh
+ds
 ```
