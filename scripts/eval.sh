@@ -6,18 +6,12 @@ export TEMPLATE="cot_answer"
 
 # 多个模型路径
 MODEL_PATHS=(
-#  "/data1/duanshaohua/hf_hub/models--meta-llama--Llama-3.1-8B-Instruct"
-  "/data1/duanshaohua/rankcot/checkpoint/llamafactory/Qwen2.5/new_qwen_full_doc_dpo_aligned/new_qwen_full_doc_dpo_600_aligned"
-#  "/data1/duanshaohua/rankcot/checkpoint/llamafactory/Llama3.1/mab/top3/samples32/prompt8k_dpo_llama3.1/llama3_longmab_top3_4000"
-#  "/data1/duanshaohua/rankcot/checkpoint/llamafactory/Llama3.1/mab/top5/samples32/prompt8k_dpo_llama3.1/llama3_longmab_top5_4000"
-
+  "/data1/duanshaohua/hf_hub/models--meta-llama--Llama-3.1-8B-Instruct"
 )
 
 # 对应的输出路径
 OUTPUT_DIRS=(
   "/data1/duanshaohua/rankcot/result/Qwen2.5/new_qwen_full_doc_dpo_600_aligned"
-#  "/data1/duanshaohua/rankcot/result/Llama3.1/mab/top3/llama3_longmab_top3_4000"
-#  "/data1/duanshaohua/rankcot/result/Llama3.1/mab/top5/llama3_longmab_top5_4000"
 )
 
 
