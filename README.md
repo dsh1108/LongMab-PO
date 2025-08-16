@@ -68,7 +68,7 @@ You can train the model by utilizing LLaMA-Factory framework quickly, we provide
 ```
 cd Llama-Factory
 ```
-You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingface.co/rocketduan/Llama-3.1-8B-Instruct-LongMab-PO) and [Qwen-2.5-7B-Instruct](https://huggingface.co/rocketduan/Qwen-2.5-7B-Instruct-LongMab-PO/tree/main) directly.
+You can also download the checkpoint of [Llama-3.1-8B-Instruct](https://huggingface.co/rocketduan/Llama-3.1-8B-Instruct-LongMab-PO) and [Qwen-2.5-7B-Instruct](https://huggingface.co/rocketduan/Qwen-2.5-7B-Instruct-LongMab-PO) directly.
 
 ## Evaluation
 ```
